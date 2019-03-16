@@ -10,6 +10,7 @@ html{
 
 body {
 	font-family: 'Noto Sans', sans-serif;
+	/*font-family: 'IBM Plex Sans', sans-serif;*/
 	/*text-align: center;*/
 }
 nav{
@@ -18,15 +19,31 @@ nav{
 	padding: 2em;
 }
 header{
-	background: rgb(255,194,0);
-	background: radial-gradient(circle, rgba(255,194,0,1)  0%, rgba(235,30,94,1) 150%);
-	background-size:200%;
-	background-position: calc(100% - 20px) calc(100% - 10px); 
-	width: 100%; 
-	height: 100%;
-	padding: 10em;
+	background: radial-gradient(circle, rgba(0,0,0,0)  0%, rgba(0,0,0,0.05) 200%), #e78151;
+	background: ;
+	/*background-size:200%;*/
+	padding: 8em;
 	border-top: 8px solid rgba(255,255,255,0.1);
-	/*box-shadow: rgba(0,0,0,0.01) 0px 10px 10px;*/
+}
+
+h1, h2{
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+.bg-white {
+	background-color:#007aeb;
+	/*color:#;*/
+}
+
+.bg-off {
+	background-color:#faf0eb;
+}
+
+header .container{
+	vertical-align: center;
+}
+
+header h1{
+	font-size: 4em;
 }
 
 header p {
@@ -38,27 +55,51 @@ header h1, header h2, header h3{
 	color: #fff;
 }
 
-h1{
-	font-size: 10em;
+.navbar-brand{
 	font-family: 'Geometry', sans-serif;
+	color: #fff;
+	font-size: 2em;
 	/*font-weight: 600;*/
 	text-shadow: rgba(1,1,1,0.01) 2px 8px 6px;
 }
-
-h3{
-	font-weight: 300;
+.navbar-brand:hover{
+	color: rgba(255,255,255,0.8);
 }
 
-h4{
+h1{
+	font-size: 2.5em;
+	/*font-family: 'Geometry', sans-serif;*/
+	/*font-weight: 600;*/
+	margin: 0.5em 0;
+	font-weight: 500;
+	color: #1a1411;
+	text-shadow: rgba(1,1,1,0.01) 2px 8px 6px;
+}
+
+h1 span{
+	display: block;
+	font-size: 0.4em;
 	font-weight: 600;
-	color: #000;
-	margin: 1em 0;
+	padding: 1.2em 0;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #e78151;
+}
+
+p {
+	color: #746c68;
+	line-height: 2em;
+	max-width: 440px;
+}
+
+a {
+	color: ;
 }
 
 hr{
 	margin: 3em 0 1em;
 }
-.text h1{
-	letter-spacing: 0.1em;
-	font-size: 5em;
+
+section{
+	padding: 8em;
 }
