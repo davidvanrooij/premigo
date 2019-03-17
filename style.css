@@ -103,11 +103,18 @@ h1 span{
 p {
 	color: #746c68;
 	line-height: 2em;
+}
+
+section .col-md-6 p{
 	max-width: 440px;
 }
 
 a {
-	color: ;
+	color: #6551e7;
+	font-weight: 500;
+}
+a:hover{
+	color: #5444c1;
 }
 
 hr{
@@ -118,4 +125,18 @@ section{
 	padding: 8em 0;
 }
 
+footer{
+	color: #fff;
+	padding: 4em;
+}
+
+footer p{
+	color: rgba(255,255,255,.8);
+	line-height: 1.5em;
+}
+
+footer p span{
+	color: rgba(255,255,255,.4);
+	font-size: 0.8em;
+}
 .modal-backdrop { background-color: #746c68; }
